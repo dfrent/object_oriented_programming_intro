@@ -25,7 +25,7 @@ class Bank_account
     @withdrawl = (amount)
   end
     def gain_interest= (amount)
-      @gain_interest = (amount)
+     @gain_interest(amount)
     end
 
     def deposit= (gained)
