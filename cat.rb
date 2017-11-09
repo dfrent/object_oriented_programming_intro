@@ -44,8 +44,11 @@ class Cat
     end
   end
 
+  def meow
+    "my name is #{@name} and I like to eat at #{eats_at}"
+  end
 end
 
-  cat = Cat.new("fluffy", "popcorn", 23)
+  cat = Cat.new("fluffy", "popcorn", 3)
 
-  puts cat.eats_at
+  puts cat.meow
